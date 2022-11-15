@@ -1,0 +1,338 @@
+.port{
+    margin: 1%;
+    width: 210px;
+    height: 250px;
+}
+.background{
+    margin-top: 80px;
+    border-radius: 60px;
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bio{
+    font-size: 20px;
+    border-radius: 65px;
+    margin: 4%;
+    width: 75%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e9e7e7;
+}
+.textBio{
+    font-size: 18px;
+    text-justify: initial;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+}
+.title{
+    font-size: 40px;
+}
+.minicontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+    height: 100%;
+}
+.about{
+    margin: 1%;
+    font-size: 30px;
+}
+.expContainer{
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+.frontDep{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    width: 47%;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.backDep{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    width: 47%;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.expBack{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 35%;
+    padding: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 8px;
+}
+.expFront{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 35%;
+    border-radius: 8px;
+}
+
+.btn{
+    text-decoration: none;
+    width: 60px;
+    height: 60px;
+}
+.javascript{
+    margin: 15px;
+    width: 70px;
+    height: 70px;
+}
+.javascript:hover{
+    cursor: pointer;
+}
+.javascript2{
+    margin: 20px;
+    width: 70px;
+    height: 70px;
+}
+.javascript2 :hover{
+    cursor: pointer;
+}
+.logocontainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.logocontainer2{
+    display: flex;
+    margin: 7px;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.namehidden{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    border-radius: 20px;
+    font-size: 13px;
+    padding: 7px;
+    display: none;
+    position: absolute;
+    background-color: rgb(53, 53, 53);
+}
+
+.afd:hover .namehidden{
+    display: block;
+}
+.afd{
+    margin: 3px;
+}
+.technologyPres{
+    font-size: 18px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    width: 50%;
+}
+.otherTech{
+    font-size: 18px;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: white;
+    padding: 20px;
+    width: 55%;
+}
+.techTitle{
+    margin-top: 40px;
+    font-size: 29px;
+    color: black;
+}
+.present{
+    width: 110%;
+    height: 70vh;
+}
+.landing{
+    background-image: url(../img/development.webp);
+    background-size: 140% 90vh;
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.titlePresent{
+    font-size: 46px;
+    font-family: serif;
+    align-self: flex-start;
+}
+.cv{
+    margin-top: 20px;
+    font-size: 18px;
+    border: solid 2px rgb(53, 160, 49);
+    align-self: flex-start;
+    text-decoration: none;
+    color: rgb(53, 160, 49);
+    padding: 7px;
+}
+.minilanding{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-left: 70px;
+    width: 25%;
+}
+.presentacion{
+    margin-top: -15px;
+    font-size: 18px;
+}
+.cv:hover{
+    background-color: rgb(53, 160, 49);
+    color: white;
+}
+.aboutTitle{
+    font-size: 28px;
+    font-family: serif;
+    color: rgb(53, 160, 49);
+}
+.bioBackgound{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+}
+.portBackground{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #e9e7e7;
+}
+.frontLogo{
+    width: 170px;
+    height: 150px;
+    border-bottom: solid rgb(185, 185, 185) 3px;
+}
+.backlogo{
+    margin-top: 25px;
+    width: 170px;
+    height: 110px;
+    padding-bottom: 40px;
+    border-bottom: solid rgb(185, 185, 185) 3px;
+}
+.textoDev{
+    margin: 20px;
+}
+.devContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.projectsImg{
+    background-color: #e9e7e7;
+    width: 100%;
+    
+}
+.projectsContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.projectTitle{
+    font-size: 50px;
+    font-family:serif;
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+.projectBackground{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.a{
+    border-radius: 20px;
+    margin: 40px;
+    width: 40%;
+}
+.bootContainer{
+    display: flex;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: #e9e7e7;
+    width: 75%;
+
+}
+.carrucelBackground{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    padding: 60px;
+}
+.end{
+    width: 100%;
+    background-color: rgba(26, 25, 25, 0.973);
+    height: 50px;
+}
+.project{
+    font-family: serif;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    padding: 5px;
+}
+.titleLogo{
+    font-size: 27px;
+}
+.titleIcons{
+    font-size: 28px;
+    margin-top: -18px;
+}
+.titleIcons2{
+    font-size: 28px;
+    margin-top: 10px;
+}
+.spanMascotapp{
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 15px;
+    background-color: white;
+}

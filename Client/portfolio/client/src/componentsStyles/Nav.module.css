@@ -1,0 +1,28 @@
+.Nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 65px;
+    background-color: rgb(27, 27, 27);
+}
+.container{
+    width: 50%;
+    display: flex;
+}
+.btn{
+    color: aliceblue;
+    text-decoration: none;
+    margin: 3%;
+}
+
+.linkedin{
+    height: 70px;
+    width: 110px;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 15%;
+}
