@@ -147,7 +147,7 @@ export default function Home(){
 
                      <div class="carousel-item">
                         <h3 className={s.project}>CountriesApp</h3>
-                        <img src={countriesAppLogo} class="d-block w-100" alt="..."/>
+                        <a href="https://countriesappjuka.vercel.app/"><img src={countriesAppLogo} class="d-block w-100" alt="..."/></a>
                         <div className={s.spanMascotapp}><span>My first project, It is a page with all the countries of the world, in which all the places and tourist activities of this are detailed, Users can also add tourist activities in the country they choose, This project was made with React redux, Express, Postgres sql, the design was made with pure Css</span></div>
                      </div>
 
