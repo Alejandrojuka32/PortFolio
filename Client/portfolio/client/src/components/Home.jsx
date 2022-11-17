@@ -15,6 +15,7 @@ import frontlogo from "../img/frontlogo.png"
 import backlogo from "../img/backlogo.png"
 import mascotappLogo from "../img/mascotapp home.png"
 import countriesAppLogo from "../img/countriesapp.png"
+import Cv from "../img/Copia de Curriculum .pdf"
 
 export default function Home(){
     return(
@@ -23,7 +24,7 @@ export default function Home(){
                 <div className={s.minilanding}>
                     <h1 className={s.titlePresent}>Hi, im Alejandro </h1>
                     <span className={s.presentacion}>im a full stack developer and this is my portfolio</span>
-                    <a className={s.cv} href="#" download={node}>Descargar CV</a>
+                    <a className={s.cv} href={Cv} download="Curriculum Ale Juka">Descargar CV</a>
                 </div>
             </div>
 
@@ -34,9 +35,9 @@ export default function Home(){
                     </div>
                     <div className={s.minicontainer}>
                     <h2 className={s.aboutTitle}>About me</h2>
-                    <span className={s.textBio}>Hi, my name is Alejandro Juka. I'm from Argentina, Formosa,i ve 18 years old and I'm a web developer with experience in front end and backend development. I am currently looking for new knowledge and work experiences to help me improve further in these fields. 
+                    <span className={s.textBio}>Hi, my name is Alejandro Juka. I'm from Argentina, Formosa,im 18 years old and I'm a web developer with experience in front end and backend development. I am currently looking for new knowledge and work experiences to help me improve in these fields. 
                  </span>
-                 <span className={s.textBio}>I have +1000 hours of studies in the most important technologies in web development and teamwork and organization methodologies</span>
+                 <span className={s.textBio}>I've +1000 hours of studies in the most important technologies in web development and teamwork and organization methodologies</span>
                  <span className={s.textBio}>I took an intensive course at the Henry Academy where I learned React, Node js, Sql, Typescript, among the highlights
                     I also did a career called argentina program where I consolidated my knowledge and learned database structure with Java and next js.</span>
              </div>
