@@ -214,9 +214,11 @@
     justify-content: center;
 }
 .titlePresent{
-    font-size: 46px;
+    font-size: 48px;
     font-family: serif;
     align-self: flex-start;
+    color: black;
+    text-shadow: 3px 3px 3px white;
 }
 .cv{
     margin-top: 20px;
