@@ -61,10 +61,10 @@ export default function Home(){
                 </div>  
              </div>
              </div>
+             <div className={s.imageBack}>
                 <div className={s.divTech}>
                 <h2 className={s.techTitle}>Technologies</h2>
                 </div>
-
             <div className={s.expContainer}>
                 <div className={s.background3}>
                 <div className={s.expFront}>
@@ -146,6 +146,7 @@ export default function Home(){
                </div>
             <div className={s.otherTech}>
             I also have knowledge in other fields such as authentication, testing, bootstrap, tailwind, jwt tokens, next js and workers, which I use in the development of my more recent projects
+            </div>
             </div>
        <div className={s.carrucelBackground}>
         <h1 className={s.projectTitle}> Projects</h1>
