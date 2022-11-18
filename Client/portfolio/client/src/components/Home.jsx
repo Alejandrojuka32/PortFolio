@@ -16,6 +16,8 @@ import backlogo from "../img/backlogo.png"
 import mascotappLogo from "../img/mascotapp home.png"
 import countriesAppLogo from "../img/countriesapp.png"
 import Cv from "../img/Copia de Curriculum .pdf"
+import sequelize from "../img/sequelize.png"
+import mongodb from "../img/mongodb.png"
 
 export default function Home(){
     return(
@@ -44,7 +46,7 @@ export default function Home(){
             </div>
 
             </div>
-
+            <div className={s.background2}>
             <div className={s.devContainer}>
                <div className={s.frontDep}>
                     <h2 className={s.titleLogo}>Front end Development</h2>
@@ -58,13 +60,13 @@ export default function Home(){
                     <span className={s.textoDev}>I can work on the logical aspects of a web page. Developing myself in tasks such as generating a connection with the database, facilitating the use of web server libraries, combining information, transforming it and returning it to the user. All this working with Javascript, Typescript, node.js, mySql, etc.</span>
                 </div>  
              </div>
-                    
-                <h2 className={s.techTitle}>Technolgies</h2>
-                <div className={s.technologyPres}>
-                I have experience in the following technologies which I use in my projects
+             </div>
+                <div className={s.divTech}>
+                <h2 className={s.techTitle}>Technologies</h2>
                 </div>
 
             <div className={s.expContainer}>
+                <div className={s.background3}>
                 <div className={s.expFront}>
                     <h2 className={s.titleIcons}>Front End Technologies</h2>
                     <div className={s.logocontainer}>
@@ -102,7 +104,8 @@ export default function Home(){
 
                     </div>
                  </div>
-
+                 </div>
+                <div className={s.background3}>
                 <div className={s.expBack}>
                     <h2 className={s.titleIcons2}>Back End Technologies</h2>
                     <div className={s.logocontainer2}>
@@ -113,7 +116,7 @@ export default function Home(){
                         </div>
 
                         <div className={s.afd}>        
-                        <img src={sql} alt="" className={s.javascript2} />
+                        <img src={sql} alt="" className={s.javascript3} />
                         <div className={s.namehidden}>SQL</div>
                         </div>
 
@@ -127,7 +130,18 @@ export default function Home(){
                         <div className={s.namehidden}>EXPRESS JS</div>
                         </div>
 
+                        <div className={s.afd}>
+                        <img src={sequelize} alt="" className={s.javascript2}/>
+                        <div className={s.namehidden}>SEQUELIZE</div>
+                        </div>
+
+                        <div className={s.afd}>
+                        <img src={mongodb} alt="" className={s.javascript2}/>
+                        <div className={s.namehidden}>MONGO DB</div>
+                        </div>
+
                     </div>
+                 </div>
                  </div>
                </div>
             <div className={s.otherTech}>

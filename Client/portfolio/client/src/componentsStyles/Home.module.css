@@ -26,7 +26,7 @@
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
-    background-color: #0400ff0c;
+    background-color: white;
 }
 .textBio{
     font-size: 19px;
@@ -84,7 +84,7 @@
     display: flex;
     flex-direction: column;
     background-color: white;
-    width: 35%;
+    width: 100%;
     padding: 10px;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -97,7 +97,7 @@
     justify-content: center;
     align-items: center;
     background-color: white;
-    width: 35%;
+    width: 100%;
     border-radius: 8px;
 }
 
@@ -107,20 +107,25 @@
     height: 60px;
 }
 .javascript{
-    margin: 15px;
-    width: 70px;
-    height: 70px;
+    margin: 20px;
+    width: 80px;
+    height: 80px;
 }
 .javascript:hover{
     cursor: pointer;
 }
 .javascript2{
     margin: 20px;
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
 }
 .javascript2 :hover{
     cursor: pointer;
+}
+.javascript3{
+    margin: 20px;
+    width: 100px;
+    height: 80px;
 }
 .logocontainer{
     display: flex;
@@ -164,18 +169,35 @@
 .otherTech{
     font-size: 18px;
     display: flex;
-    border-radius: 20px;
     justify-content: center;
     text-align: center;
-    margin-bottom: 50px;
     background-color: white;
     padding: 20px;
     width: 55%;
+    border-top: #0400ff0c solid 5px;
 }
 .techTitle{
     margin-top: 40px;
-    font-size: 29px;
+    font-size: 35px;
     color: black;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.divTech{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0400ff0c;
+    width: 100%;
+    height: 100px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
 }
 .present{
     width: 110%;
@@ -183,7 +205,7 @@
 }
 .landing{
     background-image: url(../img/development.webp);
-    background-size: 140% 90vh;
+    background-size: 150% 90vh;
     display: flex;
     width: 100%;
     height: 90vh;
@@ -223,7 +245,6 @@
 .aboutTitle{
     font-size: 28px;
     font-family: serif;
-    color: rgb(53, 160, 49);
 }
 .bioBackgound{
     display: flex;
@@ -275,7 +296,11 @@
     font-size: 50px;
     font-family:serif;
     margin-bottom: 20px;
-    margin-top: -20px;
+    margin-top: -30px;
+    border-top: 10px solid #0400ff0c;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
 }
 .projectBackground{
     display: flex;
@@ -335,4 +360,18 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 15px;
     background-color: white;
+}
+.background2{
+    background-color: #0400ff0c;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.background3{
+    display: flex;
+    background-color: #0400ff0c;
+    padding: 2%;
+    width: 48%;
+    border-radius: 15px;
 }
