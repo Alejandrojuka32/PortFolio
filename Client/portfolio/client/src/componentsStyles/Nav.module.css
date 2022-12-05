@@ -1,10 +1,12 @@
 .Nav{
     display: flex;
     width: 100%;
+    top: 0px;
     justify-content: space-around;
     flex-direction: row;
     height: 65px;
-    background-color: rgb(27, 27, 27);
+    background-image: url(../img//fondoNegro.jpg);
+    border-bottom: 3px solid rgb(255, 1, 107);
 }
 .container{
     width: 50%;
@@ -25,4 +27,29 @@
     justify-content: space-around;
     align-items: center;
     width: 15%;
+}
+.name{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    color: #ff439b;
+}
+@media (max-width:580px){
+    .container{
+        display: none;
+    }
+    .name{
+        display: flex;
+    }
+    .btn2{
+        margin: 30px;
+    }
+    .links{
+        width: 150px;
+    }
+}
+@media (max-width:500px){
+    .name{
+        font-size: 20px;
+    }
 }

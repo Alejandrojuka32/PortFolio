@@ -9,10 +9,10 @@ export default function Nav(){
         <div className={s.Nav}>
             <div className={s.container}>
             <a className={s.btn} href="/">Contact</a>
-            <a className={s.btn} href="/">Projects</a>
-            <a className={s.btn} href="/">About me</a>
-            <a className={s.btn} href="/">Technologies</a>
+            <a className={s.btn} href="#projects">Projects</a>
+            <a className={s.btn} href="/#technologies">Technologies</a>
             </div>
+            <h1 className={s.name}>Alejandro Juka</h1>
             <div className={s.links}>
             <IconContext.Provider value={{ color: "white",size: "25px", className: "global-class-name" }}>
                 <a classname={s.btn2} href="https://www.linkedin.com/in/alejandro-juka-a20846243/">{ <AiFillLinkedin/>}</a>
