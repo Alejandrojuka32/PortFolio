@@ -80,7 +80,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .titlePresent{
     font-size: 48px;
@@ -178,7 +178,7 @@
 .bootContainer{
     display: flex;
     border-radius: 20px;
-    width: 63%;
+    width: 70%;
     margin-bottom: 5px;
 }
 .carrucelBackground{
@@ -253,7 +253,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0px 30px 40px 30px;
+    padding: 0px 0px 0px 0px;
     background-image: url(../img/fondoNegro.jpg);
 }
 
@@ -317,7 +317,7 @@
         display: none;
     }
     .landing{
-        height: 70vh;
+        height: 75vh;
     }
     .textBio{
         font-size: 12px;

@@ -4,6 +4,7 @@ import s from "../componentsStyles/Home.module.css"
 import Cv from "../img/new Cv .pdf"
 import Technologies from "./Technologies";
 import Carousel from "./Carousel";
+import Experience from "./Experience";
 
 export default function Home(){
     return(
@@ -28,7 +29,6 @@ export default function Home(){
         <div className={s.divTech}>
           <h2 className={s.techTitle} id="technologies">Technologies</h2>
         </div>
-
          <Technologies/>
 
        <div className={s.carrucelBackground}>
@@ -38,8 +38,9 @@ export default function Home(){
             </div>
         </div>
 
-        <div className={s.end}>
+        <Experience/>
 
+        <div className={s.end}>
         </div>
 
      </div>
